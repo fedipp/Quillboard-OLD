@@ -23,12 +23,12 @@
             >;
         };
 
-        lower_layer {
+        nav_layer {
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp LS(DE_CARET)  &kp DE_EXCL  &kp DQT           &kp DE_SECT  &kp DE_DOLLAR  &kp DE_PERCENT            &kp DE_AMPS   &kp DE_SLASH  &kp UP    &kp DE_BSLH  &kp DE_EQUAL   &kp DE_QMARK
+&trans            &kp DE_LT    &kp LS(LA(DE_W))  &kp DE_LBKT  &kp DE_LPAR    &kp DE_LBRC               &kp LA(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LA(RIGHT)  &kp BSPC  
+&trans            &kp DE_GT    &kp LA(DE_N2)     &kp DE_RBKT  &kp DE_RPAR    &kp DE_RBRC               &kp HOME      &kp PGUP      &kp PGDN  &kp END      &kp LA(BSPC)   &kp DEL
+                                                 &trans       &trans         &trans                    &trans        &trans        &trans
             >;
         };
 
