@@ -106,7 +106,7 @@ layers:
   - BT 4
   - BT 5
   - {t: BT, h: '5'}
-  - BT CLEAR
+  - BT CLR
   - ⏮️
   - ⏯
   - ⏭️
@@ -127,7 +127,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - ''
-  - Gui+ LS(5
+  - Gui+Sft+ 5
   - Gui+Sft+ 3
   - Gui+Sft+ 4
   - ''
