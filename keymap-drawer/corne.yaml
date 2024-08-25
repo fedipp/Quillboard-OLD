@@ -100,3 +100,46 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  fn:
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - {t: BT, h: '5'}
+  - BT CLEAR
+  - ⏮️
+  - ⏯
+  - ⏭️
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - ''
+  - Gui+ LS(5
+  - Gui+Sft+ 3
+  - Gui+Sft+ 4
+  - ''
+  - BRI DN
+  - BRI UP
+  - F21
+  - F22
+  - F23
+  - F24
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
