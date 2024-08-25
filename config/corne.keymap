@@ -18,8 +18,8 @@
             bindings = <
 &kp LG(LC(DE_Q))  &kp DE_Q  &kp DE_W  &kp DE_E  &kp DE_R  &kp DE_T          &kp DE_Z  &kp DE_U  &kp DE_I      &kp DE_O       &kp DE_P         &kp DE_U_UMLAUT               
 &kp ESC           &kp DE_A  &kp DE_S  &kp DE_D  &kp DE_F  &kp DE_G          &kp DE_H  &kp DE_J  &kp DE_K      &kp DE_L       &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp TAB           &kp DE_Z  &kp DE_X  &kp DE_C  &kp DE_V  &kp DE_B          &kp DE_N  &kp DE_M  &kp DE_COMMA  &kp DE_PERIOD  &kp DE_ESZETT    &kp DE_ACUTE
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&lt 3 TAB         &kp DE_Z  &kp DE_X  &kp DE_C  &kp DE_V  &kp DE_B          &kp DE_N  &kp DE_M  &kp DE_COMMA  &kp DE_PERIOD  &kp DE_ESZETT    &kp DE_ACUTE
+                    &mt LALT LC(LEFT)  &mt LSHIFT DEL  &lt 2 SPACE          &lt 1 ENTER   &mt LCMD BSPC    &mt LCTRL LC(RIGHT)
             >;
         };
 
@@ -37,7 +37,7 @@
 &kp DE_CARET  &kp DE_N1     &kp DE_N2     &kp DE_N3     &kp DE_N4     &kp DE_N5                &kp DE_N6      &kp DE_N7   &kp DE_N8  &kp DE_N9  &kp DE_N0     &kp LA(DE_COMMA)
 &trans        &kp DE_SLASH  &kp DE_STAR   &kp DE_MINUS  &kp DE_PLUS   &kp LA(LS(DE_N9))        &kp DE_COMMA   &kp DE_N4   &kp DE_N5  &kp DE_N6  &kp DE_EQUAL  &kp BSPC
 &trans        &kp LA(DE_V)  &kp DE_TILDE  &kp DE_SQT    &kp DE_POUND  &kp LA(DE_X)             &kp DE_PERIOD  &kp DE_N1   &kp DE_N2  &kp DE_N3  &kp LA(BSPC)  &kp DEL
-                                          &trans        &trans        &trans                   &trans        &trans        &trans
+                                          &trans        &trans        &trans                   &trans         &mt LCMD DE_N0    &trans
             >;
         };
 
